@@ -48,14 +48,54 @@ img{
 
 
 @media screen and (min-width: 920px) {
+
     h1{
         float: left;
     }
-    .hidden-on-desktop{
+    img{
+        width: 890px;
+        height: 385px;
+    }
+    .hidden-on-desktop {
         visibility: hidden;
     }
-    .nav-links{
-        float: right;
+    .nav-links {
+        margin: auto;
+        width: 100%;
+        padding: 1rem;
+        text-align: right;
     }
+    .nav-links>li {
+        background-color: transparent;
+        width: 5%;
+        list-style: none;
+        margin: 1rem 1rem;
+        text-align: center;
+        height: 5rem;
+        display: inline-block;
+        line-height: 45px;
+        font-size: 2rem;
+    }
+
+    .sub-section{
+        font-style: italic;
+        clear: right;
+    }
+    .main {
+        width: 75%;
+        float: left;
+    }
+    footer{
+        margin-top: 100px;
+    }
+    body {
+        width: 920px;
+        position: absolute;
+    }
+    .alert-info {
+        position: relative;
+        left: 8rem;
+    }
+
 
 }
