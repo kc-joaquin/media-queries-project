@@ -1,0 +1,27 @@
+:root {
+    font-size: 10px;
+}
+
+.hidden-on-desktop {
+    background-color: rgb(192 255 255);
+    border: 1 px rgb(204 204 204);
+    margin: 0 auto;
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+    padding-top: 2.5rem;
+}
+.hidden-on-desktop>a{
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+h1{
+    font-size: 3rem;
+}
+
+
+
+@media screen and (min-width: 890px) {
+
+}
