@@ -5,6 +5,13 @@ h1{
     font-size: 3rem;
     text-align: center;
 }
+footer{
+    margin-top: 40px;
+}
+img{
+    width: 339px;
+    height: 224px;
+}
 .hidden-on-desktop {
     background-color: rgb(192 255 255);
     border: 1px solid rgb(204 204 204);
@@ -17,10 +24,12 @@ h1{
     color: #000;
     font-weight: bold;
     text-decoration: none;
+    line-height: 40px;
 }
 .nav-links {
     margin: auto;
     width: 100%;
+    padding: 1px;
 }
 .nav-links>li{
     background-color: rgb(204 204 204);
@@ -30,9 +39,23 @@ h1{
     text-align: center;
     height: 5rem;
     display: inline-block;
+    line-height: 45px;
+}
+.sub-section{
+    font-style: italic;
 }
 
 
-@media screen and (min-width: 890px) {
+
+@media screen and (min-width: 920px) {
+    h1{
+        float: left;
+    }
+    .hidden-on-desktop{
+        visibility: hidden;
+    }
+    .nav-links{
+        float: right;
+    }
 
 }
