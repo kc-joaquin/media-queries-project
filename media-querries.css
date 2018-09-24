@@ -1,10 +1,9 @@
+:root {
+    font-size: 10px;
+}
 h1{
     font-size: 3rem;
     text-align: center;
-}
-
-:root {
-    font-size: 10px;
 }
 .hidden-on-desktop {
     background-color: rgb(192 255 255);
@@ -18,17 +17,16 @@ h1{
     color: #000;
     font-weight: bold;
     text-decoration: none;
-    margin: ;
 }
-.nav-links{
-
+.nav-links {
+    margin: auto;
+    width: 100%;
 }
 .nav-links>li{
     background-color: rgb(204 204 204);
     width: 100%;
     list-style: none;
     margin: 1rem 0;
-    height: ;
     text-align: center;
     height: 5rem;
     display: inline-block;
