@@ -84,10 +84,12 @@ img{
     .sub-section{
         font-style: italic;
         clear: right;
-        left: -30px;
+        margin-left: 1px;
+        position: relative;
+        left: -10px;
     }
     .main {
-        width: 60%;
+        width: 55%;
         float: left;
     }
     footer{
