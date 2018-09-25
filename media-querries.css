@@ -90,7 +90,7 @@ img{
     }
     body {
         width: 920px;
-        position: absolute;
+        margin: 0;
     }
     .alert-info {
         position: relative;
