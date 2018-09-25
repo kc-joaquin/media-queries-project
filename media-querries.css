@@ -11,6 +11,7 @@ footer{
 img{
     width: 339px;
     height: 224px;
+    margin: 0 auto;
 }
 .hidden-on-desktop {
     background-color: rgb(192 255 255);
@@ -47,7 +48,7 @@ img{
 
 
 
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 934px) {
 
     h1{
         float: left;
@@ -62,8 +63,11 @@ img{
     .nav-links {
         margin: auto;
         width: 100%;
-        padding: 1rem;
         text-align: right;
+        float: right;
+        position: relative;
+        left: -35px;
+
     }
     .nav-links>li {
         background-color: transparent;
@@ -80,9 +84,10 @@ img{
     .sub-section{
         font-style: italic;
         clear: right;
+        left: -30px;
     }
     .main {
-        width: 75%;
+        width: 60%;
         float: left;
     }
     footer{
